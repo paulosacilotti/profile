@@ -1,0 +1,62 @@
+body {
+  background-image:url(https://i.imgur.com/SQCNh1k.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Yantramanav', sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 30px ;
+}
+
+.card {
+  background: white;  
+  padding: 30px; 
+  border-radius: 4px; 
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.main {
+  opacity: 1.0
+}
+
+.secondary {
+  opacity: 0.9 
+}
+
+.secondary:hover {
+  background: rgb(216, 216, 233); 
+  opacity: 1;
+  }
+
+.img-round{
+  border-radius: 50% ;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
